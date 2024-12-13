@@ -1,0 +1,114 @@
+
+/* header */
+header{
+    width: 100vw;
+    height: 10rem;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .logo{
+    width: 8rem;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1{
+    width: 8rem;
+    height: 8rem;
+    background-color: aliceblue;
+}
+
+.logo a{
+    width: 8rem;
+    height: 8rem;
+}
+
+/*
+.logo a img{}
+*/
+
+header nav{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    width: 100%;
+    height: 8rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    width: 8rem;
+    height: 8rem;
+    background-color: aqua;
+}
+
+
+
+/* main */
+main{
+    display: flex;
+    width: 100vw;
+    height: 400vh;
+    flex-direction: column;
+}
+
+main .main-section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* part-1 */
+.part-1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.part-1 .section-1{
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: lightcoral;
+}
+
+.part-1 .section-2{
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: lightsalmon;
+}
+
+.content-wrapper{
+    width: 70%;
+    height: 100%;
+    display: block;
+    background-color: beige;
+}
+
+
+.part-2{
+    background-color: lightgreen;
+}
+
+.part-3{
+    background-color: aqua;
+}
+
+.part-4{
+    background-color: lightgreen;
+}
