@@ -153,14 +153,14 @@ main .main-section{
     align-items: center;
     width: 100vw;
     height: 50vh;
-    background-color: lightcoral;
+    background-image: linear-gradient(270deg, #12223e 30%, #14274a 70%, #192e53 100%);
 }
 
 .part-2 .section-2{
     align-items: center;
     width: 100vw;
     height: 50vh;
-    background-color: lightsalmon;
+    background-image: linear-gradient(90deg, #12223e 30%, #14274a 70%, #192e53 100%);
 }
 
 .content-wrapper{
