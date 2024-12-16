@@ -61,7 +61,8 @@ nav ul li{
 }
 
 nav ul li:hover{
-    background-color: #333;
+    font-size: 26px;
+    color: rgb(211, 220, 249);
 }
 
 
